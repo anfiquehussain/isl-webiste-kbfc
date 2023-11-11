@@ -10,7 +10,7 @@ body {
 
     
 .team-about {
-   background: url("/static/ab2.webp") no-repeat center center fixed;
+   background: url("static/ab2.webp") no-repeat center center fixed;
     background-size: cover;
     color: #ffffff;
     width: 100%;

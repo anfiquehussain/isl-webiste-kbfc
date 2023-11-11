@@ -8,7 +8,7 @@ body {
   padding: 0;
   color: #0073ff;
   font-family: Titillium Web;
-  background: url("/static/v3.gif") no-repeat center center fixed;
+  background: url("static/v3.gif") no-repeat center center fixed;
   background-size: cover;
   width: 100%;
   height: 101vh;

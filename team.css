@@ -8,7 +8,7 @@ body {
   color: #000000;
 }
 .team-header {
-  background: url("/static/kbfc_squad2.jpg") no-repeat center center fixed;
+  background: url("static/kbfc_squad2.jpg") no-repeat center center fixed;
   background-size: cover;
   color: #ffffff;
   width: 100%;

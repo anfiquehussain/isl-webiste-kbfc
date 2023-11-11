@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Linefont:wght@100&family=Titillium+Web:wght@300&family=Tourney:wght@200&display=swap");
 body {
     font-family: "Arial", sans-serif;
@@ -10,8 +9,8 @@ body {
   }
 
     
-.team-news {
-   background: url("/static/news_header_2.jpeg") no-repeat center center fixed;
+.team-history {
+   background: url("static/v3.gif") no-repeat center center fixed;
     background-size: cover;
     color: #ffffff;
     width: 100%;
@@ -20,7 +19,7 @@ body {
     font-size: 300px;
     font-family: Tourney;
 }
-  .team-news h1 {
+  .team-history h1 {
     color: #ffffff;
     font-size: 150px;
     font-family: Tourney;
@@ -28,9 +27,9 @@ body {
  
 
 
-  a{
-    margin-right: 5%;
-  }
+
+  
+  
   
   
   
@@ -38,7 +37,7 @@ body {
   
   /* Tablet styles (768px - 991px) */
   @media (min-width: 768px) and (max-width: 991px) {
-    .team-news  h1 {
+    .team-history h1 {
       color: #ffffff;
       font-size: 100px;
       font-family: Tourney;
@@ -49,7 +48,7 @@ body {
   
   /* Mobile styles (up to 767px) */
   @media (max-width: 767px) {
-    .team-news h1 {
+    .team-history h1 {
       color: #ffffff;
       font-size: 50px;
       font-family: Tourney;

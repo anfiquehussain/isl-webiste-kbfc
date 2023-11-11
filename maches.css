@@ -9,7 +9,7 @@ body {
 
 .maches-header {
   font-family: Titillium Web;
-  background: url("/static/v3.gif") no-repeat center center fixed;
+  background: url("static/v3.gif") no-repeat center center fixed;
   background-size: cover;
   color: #ffffff;
   padding: 20px;
