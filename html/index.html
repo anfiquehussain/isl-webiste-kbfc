@@ -8,24 +8,37 @@
   <link rel="stylesheet" href="/css/style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <style>
+    .club-history-title:hover {
+      color: #ffc107;
+    }
+  </style>
 </head>
 
 
 
 
 <body>
- 
+
   <i class="fa-solid fa-bars" id="icon" style="color: #0073FF; font-size: 60px; padding: 10px;"></i>
+
+  <div class="container_mouse">
+    <span class="mouse-btn">
+      <span class="mouse-scroll"></span>
+    </span>
+    <span>Scroll Down</span>
+  </div>
   <div class="fullscreen-div" id="fullscreenDiv">
     <div class="team-name">
       <!-- <i class="fa-solid fa-x" id="close" style="color: #313131; font-size: 60px; padding: 10px; display: none;"></i> -->
-      <img src="/static/MAIN-LOGO.png" alt="" id="close" style="color: #313131; width: 90px; padding: 10px; display: none;">
-      <div class="menu-item-con">
-        <a href="index copy.html"  class="menu-nav-links">ABOUT</a>
-        <a  class="menu-nav-links">NAME</a>
-        <a  class="menu-nav-links">WORLD</a>
-        <a  class="menu-nav-links">WORLD</a>
-        <a  class="menu-nav-links">WORLD</a>
+      <img src="/static/MAIN-LOGO.png" alt="" id="close"
+        style="color: #313131; width: 90px; padding: 10px; display: none;">
+      <div class="menu-item-con ">
+        <a class="menu-nav-links text-uppercase" href="club_histroy.html#Performance">Performance</a>
+        <a class="menu-nav-links text-uppercase" href="club_histroy.html#Achievements">ACHIEVEMENTS</a>
+        <a class="menu-nav-links text-uppercase" href="about.html">about us</a>
+        <a class="menu-nav-links text-uppercase" href="contact.html">contact us</a>
       </div>
     </div>
     <div class="team-score-board">
@@ -33,80 +46,117 @@
         <p style="color: #313131;">MATCHES</p>
       </div>
       <br>
-<a style="text-decoration: none; color: white;" href="Fixtures.html">
+      <a style="text-decoration: none; color: white;" href="maches.html">
 
-  <div class="score-board">
-    <img src="/static/F5ap3OcbQAAI6Bi.jpg" alt="">
-    <h5>Live Score: : 80'</h5>
-    <img class="score-board-items" src="/static/MAIN-LOGO.png" alt="">
-    <span style="font-size: 2rem;">1-0</span>
-    <img class="score-board-items" src="/static/mumbaifc.png" alt="">
+        <div class="score-board">
+          <img src="/static/F5ap3OcbQAAI6Bi.jpg" alt="">
+          <h5>Live Score: : 80'</h5>
+          <img class="score-board-items" src="/static/MAIN-LOGO.png" alt="">
+          <span style="font-size: 2rem;">1-0</span>
+          <img class="score-board-items" src="/static/mumbaifc.png" alt="">
+        </div>
+        <a href="maches.html" class="view-fixtures">--VIEW FIXTURES AND RESULTS--</a>
+        <br>
+    </div>
+    </a>
+
+
+
+    <a href="team.html">
+      <div style="text-decoration: none;color: white;" class="my-team-board">
+        <!-- <span class="kbfc">KBFC</span> -->
+        <h1 class="my-team-board-head"><span style="font-size: 1.5rem;font-family: monospace;">Meet Our</span> <br>TEAM
+        </h1>
+        <img class="my-team-board-hero" src="/static/my-team-hero-removebg.png">
+      </div>
+    </a>
+
+
+    <div class="club-news-card">
+      <br>
+      <div class="container">
+        <div class="row text-uppercase">
+          <div class="col">
+            <a href="club_histroy.html" class="text-decoration-none text-white">
+              <h3>Club history</h3>
+            </a>
+
+          </div>
+          <div class="col">
+            <a href="club_histroy.html#stadium" class="text-decoration-none text-white">
+              <h3>Stadium</h3>
+            </a>
+
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+
+
+    <a href="news.html" class="text-decoration-none">
+      <div class="club-news-cards-row">
+
+       
+
+        <div class="card-main">
+          <img class="card-thumbnail" src="/static/my-team-hero.jpg" alt="News Image">
+          <div class="card-content">
+            <h4 class="card-title">Lorem Ipsum Dolor Sit Amet</h2>
+              <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod </p>
+              <a href="news.html" style="text-decoration: none; color: white;">
+                <p class="card-read-more">Read more</p>
+              </a>
+              <p>Club News</p>
+          </div>
+        </div>
+
+        <div class="card-main-2">
+          <img class="card-thumbnail" src="/static/my-team-hero.jpg" alt="News Image">
+          <div class="card-content">
+            <h4 class="card-title">Lorem Ipsum Dolor Sit Amet</h2>
+              <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+              <a href="news.html" style="text-decoration: none; color: white;">
+                <p class="card-read-more">Read more</p>
+              </a>
+              <p>Club News</p>
+          </div>
+        </div>
+
+        <div class="card-main-3">
+          <img class="card-thumbnail" src="/static/my-team-hero.jpg" alt="News Image">
+          <div class="card-content">
+            <h4 class="card-title">Lorem Ipsum Dolor Sit Amet</h2>
+              <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+              <a href="news.html" style="text-decoration: none; color: white;">
+                <p class="card-read-more">Read more</p>
+              </a>
+              <p>Club News</p>
+          </div>
+        </div>
+
+        <div class="card-main-4">
+          <img class="card-thumbnail" src="/static/my-team-hero.jpg" alt="News Image">
+          <div class="card-content">
+            <h4 class="card-title">Lorem Ipsum Dolor Sit Amet</h2>
+              <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing e </p>
+              <a href="news.html" style="text-decoration: none; color: white;">
+                <p class="card-read-more">Read more</p>
+              </a>
+              <p>Club News</p>
+          </div>
+
+        </div>
+
+
+
+
+      </div>
+    </a>
+
   </div>
-  <a href="Fixtures.html" class="view-fixtures">--VIEW FIXTURES AND RESULTS--</a>
-  <br>
-</div>
-</a>
-
-
-    
-<a href="">
-<div style="text-decoration: none;color: white;" class="my-team-board" >
-  <!-- <span class="kbfc">KBFC</span> -->
-  <h1 class="my-team-board-head"><span style="font-size: 1.5rem;font-family: monospace;">Meet Our</span> <br>TEAM</h1>
-  <img class="my-team-board-hero" src="/static/my-team-hero-removebg.png">
-</div></a>
-
-
-<div class="club-news-card">
-  <div class="marquee-container">
-    <p style="font-size: large;">Next match 4/5/2004 5.00 PM - <br> Import news 1 <br> Import 2</h1>
-  </div>
-</div>
-
-
-<div class="club-news-cards-row">
-
-  <div class="card-main">
-    <img class="card-thumbnail" src="/static/my-team-hero.jpg" alt="News Image">
-    <div class="card-content">
-      <h4 class="card-title">Lorem Ipsum Dolor Sit Amet</h2>
-      <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod </p>
-      <p class="card-read-more">Read more</p>
-  </div>
-  </div>
-
-  <div class="card-main-2">
-    <img class="card-thumbnail" src="/static/my-team-hero.jpg" alt="News Image">
-    <div class="card-content">
-      <h4 class="card-title">Lorem Ipsum Dolor Sit Amet</h2>
-      <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-      <p class="card-read-more">Read more</p>
-  </div>
-  </div>
-
-  <div class="card-main-3">
-    <img class="card-thumbnail" src="/static/my-team-hero.jpg" alt="News Image">
-    <div class="card-content">
-      <h4 class="card-title">Lorem Ipsum Dolor Sit Amet</h2>
-      <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-      <p class="card-read-more">Read more</p>
-  </div>
-  </div>
-
-  <div class="card-main-4">
-    <img class="card-thumbnail" src="/static/my-team-hero.jpg" alt="News Image">
-    <div class="card-content">
-      <h4 class="card-title">Lorem Ipsum Dolor Sit Amet</h2>
-      <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing e </p>
-      <p class="card-read-more">Read more</p>
-  </div>
-  </div>
-
-
-
-</div>
-  
-  
 
   <script src="/js/script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"

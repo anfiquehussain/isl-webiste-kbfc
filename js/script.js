@@ -25,6 +25,7 @@ closeIcon.addEventListener("click", function() {
   icon.style.display = "block";
   closeIcon.style.display = "none";
   fullscreenDiv.style.display = "none";
+  container_mouse.style.display = "none"
 });
 
 window.addEventListener("scroll", function() {
